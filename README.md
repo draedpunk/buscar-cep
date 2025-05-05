@@ -1,12 +1,48 @@
-# React + Vite
+# 📍 Buscar CEP
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicativo React simples que permite consultar informações de um CEP utilizando a API ViaCEP.
 
-Currently, two official plugins are available:
+## ✨ Funcionalidades
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Validação de CEP com exatamente 8 dígitos
+- Exibição de logradouro, cidade, estado e país
+- Feedback para CEPs inválidos ou não encontrados
+- Interface centralizada e responsiva
+- Ícone de localização ao lado do título
 
-## Expanding the ESLint configuration
+## 🚀 Demonstração
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Acesse o projeto publicado na Vercel: [Buscar CEP](https://buscar-cep-self.vercel.app/)
+
+## 🛠️ Tecnologias Utilizadas
+
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- [Font Awesome](https://fontawesome.com/)
+- [API ViaCEP](https://viacep.com.br/)
+
+## 📦 Instalação
+
+1. Clone o repositório:
+
+   ```bash
+   git clone https://github.com/seu-usuario/buscar-cep.git
+
+2. Navegue até o diretório do projeto:
+
+   ```bash
+   cd buscar-cep
+
+3. Instale as dependências::
+
+   ```bash
+   npm install
+
+4. Inicie o servidor de desenvolvimento:
+
+   ```bash
+   npm run dev
+
+
+
+
