@@ -44,5 +44,3 @@ Acesse o projeto publicado na Vercel: [Buscar CEP](https://buscar-cep-self.verce
    npm run dev
 
 
-
-
