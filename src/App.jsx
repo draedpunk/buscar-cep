@@ -1,3 +1,5 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons';
 import { useState } from "react";
 import "./App.css";
 
@@ -33,7 +35,12 @@ function App() {
   return (
     <div className="Principal">
       <div className="App">
-        <h1>Buscar CEP</h1>
+        {/* <h1>Buscar CEP</h1> */}
+        <div className="title-container">
+          <FontAwesomeIcon icon={faMapMarkerAlt} className="location-icon" />
+            <h1>Buscar CEP</h1>
+        </div>
+
         <input
           type="text"
           placeholder="Digite o CEP (ex: 01001000)"
