@@ -1,0 +1,40 @@
+.Principal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+  background-color: #f0f0f0; 
+}
+
+.App {
+  text-align: center;
+  padding: 2rem;
+  font-family: sans-serif;
+  border: 1px solid purple;
+  border-radius: 8px;
+  background-color: #363636;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input {
+  padding: 10px;
+  width: 200px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+  background-color: purple;
+  color: white;
+  border-radius: 4px;
+}
+
+
+.resultado {
+  margin-top: 20px;
+  text-align: left;
+}
